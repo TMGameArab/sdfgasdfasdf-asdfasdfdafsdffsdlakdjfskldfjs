@@ -16,7 +16,7 @@ console.log(`
 Login successful.
 
 -----------------
-RoyalDev - Discord Bot
+Discord Bot
 -----------------
 ${client.user.username}
 
@@ -87,7 +87,7 @@ client.on('message', async msg => { // eslint-disable-line
 					const embed1 = new Discord.RichEmbed()
 			        .setDescription(`**اختار رقم المقطع** :
 ${videos.map(video2 => `[${++index} ] \`${video2.title}\``).join('\n')}`)
-					.setFooter("GamerZ جميع الحقوق محفوظه لدى سرفر")
+					.setFooter("LegendaryCommunity جميع الحقوق محفوظه لدى سرفر")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -142,7 +142,7 @@ ${videos.map(video2 => `[${++index} ] \`${video2.title}\``).join('\n')}`)
 					const embed1 = new Discord.RichEmbed()
 			        .setDescription(`**اختار رقم المقطع** :
 ${videos.map(video2 => `[${++index} ] \`${video2.title}\``).join('\n')}`)
-					.setFooter("GamerZ جميع الحقوق محفوظه لدى سرفر")
+					.setFooter("LegendaryCommunity جميع الحقوق محفوظه لدى سرفر")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
